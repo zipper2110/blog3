@@ -164,5 +164,5 @@ pip-log.txt
 
 # My own ignore rules
 
-.idea
-backup
+.idea/*
+backup/*
