@@ -63,7 +63,7 @@
     else { ?>
     <div class="thumbnail">
         <a href="cabinet"></a>
-        <p style="text-align: center"><b><?php echo $user->get_user()->username ?></b></p>
+        <p style="text-align: center"><b><?php echo $user->get_user()->username ?></b><a style="margin-left: 5px; font-size: 12px;" href="users/logout">Выйти</a></p>
         <img src="<?php
             echo AVATAR_PATH;
             $avatar = $user->get_user()->avatar;
@@ -74,4 +74,5 @@
             ?>" alt="мой аватар" />
         </a>
     </div>
+    <p style="text-align: center"></p>
     <?php }?>
