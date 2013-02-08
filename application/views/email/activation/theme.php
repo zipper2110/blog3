@@ -1,0 +1,1 @@
+Регистрация на сайте <?php echo isset($sitename)? $sitename : '' ?>: активация учетной записи <?php echo isset($username)? $username : '' ?>

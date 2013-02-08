@@ -1,0 +1,1 @@
+Восстановление пароля на сайте <?php echo isset($sitename)? $sitename : '' ?>: учетная запись "<?php echo isset($username)? $username : '' ?>"

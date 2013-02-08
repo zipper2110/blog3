@@ -1,0 +1,1 @@
+<div class="alert alert-error"><a class="close" data-dismiss="alert">×</a><strong>Ошибка!</strong> <?php echo isset($message) ? $message : ''; ?></div>

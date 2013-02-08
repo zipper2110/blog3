@@ -1,0 +1,1 @@
+<div class="alert alert-info"><a class="close" data-dismiss="alert">×</a><strong>Информация:</strong> <?php echo isset($message) ? $message : ''; ?></div>

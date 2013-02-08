@@ -1,0 +1,10 @@
+.input-prepend, .input-append {
+    margin-bottom: 0;
+    display: inline-block;
+    *display: inline-block;
+    *zoom: 1;
+}
+
+.input-prepend:after, .input-prepend:after {
+    display: inline-block;
+}
