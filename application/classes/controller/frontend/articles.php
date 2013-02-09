@@ -4,7 +4,7 @@ class Controller_Frontend_Articles extends Controller_Blog {
     
     public $template = 'template1';
     public $page_title;
-    public $plugins = array('ip', 'category', 'login');
+    public $plugins = array('ip', 'category', 'user');
     
     public function action_page() {
         $category = $this->request->param('category');

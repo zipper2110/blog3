@@ -168,4 +168,5 @@ pip-log.txt
 .idea/*
 .idea
 .idea/
+application/log/*
 backup/*

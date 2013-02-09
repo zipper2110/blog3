@@ -10,3 +10,10 @@
 --
 #0 C:\xampp\htdocs\blog3\index.php(109): Kohana_Request->execute()
 #1 {main}
+2013-02-09 23:14:43 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL male/intro was not found on this server. ~ SYSPATH\classes\kohana\request\client\internal.php [ 87 ]
+2013-02-09 23:14:43 --- STRACE: HTTP_Exception_404 [ 404 ]: The requested URL male/intro was not found on this server. ~ SYSPATH\classes\kohana\request\client\internal.php [ 87 ]
+--
+#0 C:\xampp\htdocs\blog3\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#1 C:\xampp\htdocs\blog3\system\classes\kohana\request.php(1138): Kohana_Request_Client->execute(Object(Request))
+#2 C:\xampp\htdocs\blog3\index.php(109): Kohana_Request->execute()
+#3 {main}
