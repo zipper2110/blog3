@@ -167,4 +167,5 @@ pip-log.txt
 /.idea/*
 .idea/*
 .idea
+.idea/
 backup/*
