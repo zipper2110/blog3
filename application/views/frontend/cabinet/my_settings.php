@@ -22,7 +22,7 @@
                 </div>
             </div>
             <input type="hidden" name="email_form-submit" value="1"/>
-            <input type="submit" class="btn-primary" value="Изменить"/>
+            <input type="submit" class="btn btn-primary" value="Изменить"/>
         </form>
     </div>
     <div class="span4 well">
@@ -68,7 +68,7 @@
                 </div>
             </div>
             <input type="hidden" name="password_form-submit" value="1"/>
-            <input type="submit" class="btn-primary" value="Изменить"/>
+            <input type="submit" class="btn btn-primary" value="Изменить"/>
         </form>
     </div>
 </div>
