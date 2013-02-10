@@ -111,7 +111,7 @@
                 <!-- mainplace container -->
                 <section id="mainplace" class="span12" style="min-height: 850px">
                     <!-- Main site content output -->
-                    <?php echo isset($mainplace) ? $mainplace : ''; ?>
+                    <?php echo (isset($mainplace) and (!is_array($mainplace))) ? $mainplace : ''; ?>
                 </section>
             </section>
             <!-- bottomplace container -->

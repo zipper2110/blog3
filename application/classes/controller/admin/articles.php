@@ -13,7 +13,12 @@ class Controller_Admin_Articles extends Controller_Admin {
     }
     
     public function action_index() {
-        
+        $this->mainplace = View::factory("admin/articles/index");
+        $this->page_title = 'Список статей';
+
+        $articles = ORM::factory('article')->find_all();
+
+        $this->mainplace->set('articles', $articles->as_array());
     }
     
     public function action_edit() {
