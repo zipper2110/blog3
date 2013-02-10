@@ -164,7 +164,9 @@ pip-log.txt
 
 # My own ignore rules
 
+.idea/
 application/logs/
+img/avatar/
 backup/
 desktop.ini
 .DS_Store
